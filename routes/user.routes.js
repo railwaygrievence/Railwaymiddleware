@@ -5,7 +5,7 @@ const fs = require('fs')
 const usersService = require("../service/user.service");
 const { userAuth, adminAuth } = require('../middleware/auth.middleware');
 const userService = require("../service/user.service");
-const {setPathgrievanceApplication, setPathFilledApplication, setPathAck} = require('../Middleware/file-system.middleware');
+const {setPathgrievanceApplication, setPathFilledApplication, setPathAck} = require('../middleware/file-system.middleware');
 const userRouter = express.Router();
 const path = require('path');
 
